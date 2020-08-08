@@ -1,5 +1,3 @@
-TOKEN = "1328830616:AAHxU87dN_TBdBQRCpBpfNpgdEJIBDkUkIs"
-
 from telegram.ext import Updater, CommandHandler, Job, JobQueue
 import logging
 import json
@@ -77,6 +75,8 @@ def send_post(context):
         database.close()
 
 driver = webdriver.Chrome("chromedriver.exe")
+with open("token.txt", 'r') as f:
+    TOKEN = f.read()
 updater = Updater(token=TOKEN, use_context=True)
 job_queue = JobQueue()
 dispatcher = updater.dispatcher
