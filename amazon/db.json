@@ -1,0 +1,44 @@
+{
+  "bluetooth": {
+    "bluetooth speaker": [],
+    "bluetooth auto": []
+  },
+  "wireless": {
+    "caricatore wireless": [],
+    "mouse wireless": [],
+    "tastiera wireless": []
+  },
+  "gaming": {
+    "monitor gaming": [],
+    "mouse gaming": [],
+    "tastiera gaming": [],
+    "cuffie gaming": [],
+    "sedia gaming": [],
+    "tappetino xxl gaming": []
+  },
+  "storage": {
+    "ssd": [],
+    "hdd": [],
+    "sd": [],
+    "usb": [],
+    "usb hub": []
+  },
+  "videogiochi": {
+    "ps4": [],
+    "ps4 giochi": [],
+    "xbox one": [],
+    "xbox one giochi": [],
+    "nintendo switch": [],
+    "nintendo switch giochi": []
+  },
+  "multimedia": {
+    "tv smart": [],
+    "monitor": [],
+    "casse": [],
+    "box android tv": []
+  },
+  "alexa": {
+    "alexa": [],
+    "lampade alexa": []
+  }
+}
