@@ -75,9 +75,8 @@ def main():
         else:
             db[category][keyword] = prodotti
             json.dump(db, outfile, indent= 2)
-   
-    
-token = ["23962db8cca72c72682ca716a4476d6837486e2f"]
+
+token = credentials['shortly_token']
 shortener = Shortener(tokens=token, max_cache_size=8192)
 with open("db.json", "r") as database:
     db = json.loads(database.read())

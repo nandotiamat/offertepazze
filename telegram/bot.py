@@ -22,12 +22,6 @@ def send_post(context):
         db = json.loads(database.read())
         database.close()
 
-    """
-    if prodotti == [] :
-        context.bot.send_message(chat_id=update.effective_chat.id, text="Il file JSON è vuoto. Sostituiscilo e riprova.")
-        return
-    """
-    
     prodotto = None
 
     while prodotto == None:
